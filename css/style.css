@@ -2,6 +2,7 @@
 body{
 	background:#fff;
 	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
 }
 body a{
 	transition: 0.5s all;
@@ -17,6 +18,16 @@ ul{
 
 h1,h2,h3,h4,h5,h6,label,p{
 	margin:0;
+}
+.header-top .active{
+	position: fixed;
+	top:0;
+}
+.current{
+
+	background:#000;
+
+
 }
 
 .header-top {
@@ -118,7 +129,7 @@ h1,h2,h3,h4,h5,h6,label,p{
   float: left;
   width: 100%;
   border: 0;
-	height: 70vh;
+	height: 90vh;
   }
 .callbacks_tabs a:after {
 	content: "\f111";
@@ -183,12 +194,12 @@ ul.callbacks_tabs.callbacks1_tabs {
 
 .content-top{
 	position:relative;
-	  padding: 4.5em 0;
 }
 .content-top1{
 	position:absolute;
 	  z-index: 999;
-	    top: -90px;
+	    top: -400px;
+			margin-left:5%;
 }
 
 .thumbnail p{
@@ -202,7 +213,6 @@ h3.grid {
 	font-size:1.6em;
 	font-family: 'Montserrat', sans-serif;
 	color:#fff;
-	margin-top: 15px;
 	  width: 79%;
 }
 .content-bottom {
@@ -210,8 +220,7 @@ h3.grid {
 }
 /*----*/
 .welcome{
-	border:1px solid #eee;
-	  padding: 2em ;
+	  padding: 1em ;
 }
 .welcome h3{
 	font-size: 2.5em;
@@ -694,7 +703,7 @@ i.glyphicon.glyphicon-ok-sign {
 }
 .contact h2{
 	font-size: 3em;
-  color: #000;
+  color: #00bce4;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
@@ -1018,7 +1027,7 @@ h3.grid {
   padding: 3.8em 0;
 }
 .red img{
-	padding-top: 100px;
+
 	margin:0 auto;
 }
 .come {
@@ -1291,7 +1300,7 @@ ul.sin-grid li a, ul.sin-grid li span {
   padding: 1.5em;
 }
 h3.grid {
-  font-size: 1.3em;
+  font-size: 1.9em;
 }
 .content-top1 {
   top: -40px;
@@ -1300,7 +1309,7 @@ h3.grid {
   margin: 0.5em 0 0em 0;
 }
 .content-top {
-  padding: 14em 0;
+  padding: 11em 0;
 }
 .col-mn1 {
   width: 100%;
@@ -1315,7 +1324,7 @@ h3.grid {
   margin-top: 15px;
 }
 .content-mid h3 {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 .six h6 {
   margin-top: 7%;

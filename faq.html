@@ -38,7 +38,7 @@
 			<div class="container">
 				<div class="logo">
 					<h1><a href="index.html">Center for Thalassemia & Blood Disorder</a></h1>
-					<p>Social Services</p>
+
 				</div>
 			</div>
 		</div>
@@ -49,12 +49,12 @@
           <span class="menu"><img src="images/menu.png" alt=""> </span>
 
           <ul>
-            <li class="active"><a href="index.html"  >Home</a><span></span></li>
-            <li><a href="about.html" >About</a><span></span></li>
+            <li class=""><a href="index.html"  >Home</a><span></span></li>
+            <li><a href="about.html" >About Us</a><span></span></li>
             <li><a href="services.html"  >Services</a><span></span></li>
             <li><a href="donor.html">Donors & Supporters</a><span></span></li>
             <li><a href="contact.html">Contact</a><span></span></li>
-            <li><a href="faq.html" >FAQ’s</a></li>
+            <li><a href="faq.html" style="color:rgba(255, 0, 0, 0.3);">FAQ’s</a></li>
           </ul>
 
           <!--script-->
@@ -70,9 +70,11 @@
   		</div>
 	</div>
 <!---->
-<div style="padding-top:20px">
-<h2 style="text-align:center">Common Questions About Thalassemia</h2>
+<div class="container" style="padding-top:30px">
+<h2 style="text-align:center;color:#00bce4;">Common Questions About Thalassemia</h2>
+<hr>
 </div>
+
 <div class="container" style="padding-top:20px">
   <div class="row" style="padding-bottom:20px">
     <div class="col-md-4">
@@ -248,4 +250,14 @@
 		 </div>
 	</div>
  </body>
+ <script>
+ $(window).on("scroll", function() {
+    if($(window).scrollTop() > 100) {
+        $(".header-top").addClass("navbar-fixed-top");
+        console.log("hello");
+    } else {
+       $(".header-top").removeClass("navbar-fixed-top");
+    }
+});
+ </script>
 </html>

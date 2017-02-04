@@ -38,7 +38,7 @@
 			<div class="container">
 				<div class="logo">
 					<h1><a href="index.html">Center for Thalassemia & Blood Disorder</a></h1>
-					<p>Social Services</p>
+
 				</div>
 			</div>
 		</div>
@@ -49,10 +49,10 @@
 					<span class="menu"><img src="images/menu.png" alt=""> </span>
 
 					<ul>
-						<li class="active"><a href="index.html"  >Home</a><span></span></li>
-						<li><a href="about.html" >About</a><span></span></li>
+						<li class=""><a href="index.html"  >Home</a><span></span></li>
+						<li><a href="about.html" >About Us</a><span></span></li>
 						<li><a href="services.html"  >Services</a><span></span></li>
-						<li><a href="donor.html">Donors & Supporters</a><span></span></li>
+						<li><a href="donor.html" style="color:rgba(255, 0, 0, 0.3);">Donors & Supporters</a><span></span></li>
 						<li><a href="contact.html">Contact</a><span></span></li>
 						<li><a href="faq.html" >FAQ’s</a></li>
 					</ul>
@@ -74,6 +74,7 @@
 <div class="container">
 	<div class="content-mid">
 		<h3 style="text-align:center">Donor's & Supporters</h3>
+    <hr>
 		<div class="container">
 		<div class="service-bottom">
 			<div class="col-md-12 service-top" style="padding-bottom:20px">
@@ -101,15 +102,15 @@
 			<p class="para">With the support of interested organization and foundations we organize screening process to test the thalassemia. We have completed more than 25000 tests for thalassemia screening and  detection.</p>
 
 			</div>
-			<div class="col-md-12 service-top" style="padding-bottom:20px">
+			<div class="col-md-12 service-top" style="padding-bottom:30px">
 				<h3 style="padding-bottom:40px;padding:0px;">Rotary Club of Hyderabad</h3>
 
 			</div>
-			<div class="col-md-12 service-top" style="padding-bottom:20px">
+			<div class="col-md-12 service-top" style="padding-bottom:30px">
 				<h3 style="padding-bottom:40px;padding:0px;">Rotary Club of Bhagyanagar</h3>
 
 			</div>
-			<div class="col-md-12 service-top" style="padding-bottom:20px">
+			<div class="col-md-12 service-top" style="padding-bottom:30px">
 				<h3 style="padding-bottom:20px;padding:0px;">Dr.Gayatri</h3>
 			<p class="para">Dr.Gayatri (Secretary Haematology Foundation) provides technical support to functioning of Centre for Thalassemia & Blood Disorder</p>
 
@@ -150,4 +151,14 @@
 		 </div>
 	</div>
  </body>
+ <script>
+ $(window).on("scroll", function() {
+    if($(window).scrollTop() > 100) {
+        $(".header-top").addClass("navbar-fixed-top");
+        console.log("hello");
+    } else {
+       $(".header-top").removeClass("navbar-fixed-top");
+    }
+});
+ </script>
 </html>
