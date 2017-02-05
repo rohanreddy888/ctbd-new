@@ -1137,9 +1137,6 @@ h3.grid {
 .grid-service img{
 		margin: 0 auto;
 }
-.services {
-  padding: 3em 0;
-}
 .work {
   padding: 2em 0px 2em;
 }
@@ -1275,7 +1272,7 @@ ul.sin-grid li a, ul.sin-grid li span {
 	.rslides img{
 		height: 300px;
 	}
-	
+
 .logo h1 {
   font-size: 22px;
 }
