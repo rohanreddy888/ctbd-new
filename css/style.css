@@ -343,7 +343,7 @@ a.more-in:hover, a.more-in:focus, a.more-in:active {
   padding: 2em 0;
 }
 .content-mid {
-  padding: 4em 0;
+  padding: 2em 0;
 }
 .content-mid h3{
 	font-size: 2.8em;
@@ -652,13 +652,14 @@ i.glyphicon.glyphicon-ok-sign {
 	line-height: 1.7em;
 }
 .about-left h2{
+	padding-bottom: 20px;
 	font-size: 3em;
 	color: #039BE5;
 	text-align:center;
 	  font-family: 'Montserrat', sans-serif;
 }
 .about-left {
-  padding: 4em 0;
+  padding: 2em 0;
 }
 .col-md1 {
   padding: 2em 0;
