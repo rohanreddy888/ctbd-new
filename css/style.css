@@ -458,9 +458,8 @@ ul.social-in li  i.pin:hover{
 	background-position: -308px -6px;
 }
 .footer-mid {
-  padding: 4em 0;
+
   border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
 }
 .grid1 h3,.grid2 h3{
 	font-size: 2em;
@@ -1280,6 +1279,9 @@ ul.sin-grid li a, ul.sin-grid li span {
 .service-on{
 	float: right;
     width: 69%;
+}
+.bottom{
+	margin-bottom: 10em;
 }
 .logo h1 {
   font-size: 22px;
